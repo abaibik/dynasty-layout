@@ -1,12 +1,20 @@
 .main-header {
   border-bottom: var(--transparent-border);
   display: flex;
-  padding: 2rem;
   justify-content: space-between;
+}
+
+.logo-container {
+  padding: 2rem 20rem 2rem 2rem;
 }
 
 .navbar-menu {
   color: var(--white-main);
-  height: 100%;
   border-left: var(--transparent-border);
+  padding: 2rem;
+}
+
+.icon-navbar {
+  font-size: 2em;
+  font-weight: 400;
 }

@@ -7,12 +7,14 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
     <div className="App">
-      <header className="main-header">
-        <img src={logo} alt="Logo Dynasty"></img>
-        <div className="navbar-menu">
-          <FontAwesomeIcon icon={faBars} />
+      <div className="main-header">
+        <div className="logo-container">
+          <img src={logo} alt="Logo Dynasty"></img>
         </div>
-      </header>
+        <div className="navbar-menu">
+          <FontAwesomeIcon icon={faBars} className="icon-navbar" />
+        </div>
+      </div>
     </div>
   );
 }
